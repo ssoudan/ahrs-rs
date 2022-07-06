@@ -13,6 +13,7 @@ edition = "2018"
 [features]
 default = [ "std" ]
 std = ["nalgebra/default", "simba/default", "num-traits/default"]
+libm-force = ["nalgebra/libm-force"]
 field_access = []
 
 [lib]
